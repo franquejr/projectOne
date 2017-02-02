@@ -1,8 +1,0 @@
-function submitClicked(){
-  var name = document.getElementById('name').value.trim();
-  var address = document.getElementById('address').value.trim();  
-  var city = document.getElementById('city').value.trim();
-  var state = document.getElementById('state').value.trim();
-  var zip = document.getElementById('zip-code').value.trim();
-  var email = document.getElementById('email').value.trim();
-}
