@@ -9,11 +9,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 
+html {
+
+
+
+}
+
+
 /* form */
 label,
 input {
+  box-sizing: border-box;
+  width:100%;
   display:block;
-
 }
 /* ===== LAYOUT STYLES ===== */
 
