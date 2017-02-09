@@ -12,14 +12,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
 
 
-
+img {
+  /*display: block;*/
+  max-width: 100%;
+}
 }
 
+div #top-banner{
+  height:200px;
+  background-image:url('../images/nespresso.jpg');
+  background-size:cover;
+}
 
 /* form */
 label,
 input {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   width:100%;
   display:block;
 }
@@ -28,6 +36,14 @@ input {
 
 /* ===== MODULAR STYLES ===== */
 
+#input-div {
+  padding-left:18%;
+  padding-right:18%;
+  background:#92a9ce;
+}
 
+li #submit{
+  width:50%;
+}
 
 /* ===== STATE STYLES ===== */
