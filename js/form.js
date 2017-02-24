@@ -1,23 +1,21 @@
 
+document.addEventListener("DOMContentLoaded",function () {
+console.log('Dom loaded');
+  var name = document.getElementById('name').value.trim();
+  var phone = document.getElementById('phone').value.trim();
+  var email = document.getElementById('email').value.trim();
 
-document.addEventListener("DOMContentLoaded",function(){
-   console.log('Dom loaded');
+    function submitClicked() {
+      if (name!==''){
+        document.getElementById('info').innerHTML = name;
+        console.log(name);
+      }//end of if statement
+      else{
+        alert('Fields cannot be empty');
+        console.log('field is empty');  
+      }//end of else 
+    }//end of submitClicked funtion
 
-function submitClicked(){
-  var name = document.forms[0].elements[0].name;
-  var address = document.forms[0].elements[1].name;  
-  var city = document.forms[0].elements[2].name;
-  var state = document.forms[0].elements[3].name;
-  var zip = document.forms[0].elements[4].name;
-  var email = document.forms[0].elements[6].name;
+  document.getElementById('submit').addEventListener('submit',submitClicked,false);
 
-  if (name!==''){
-    document.getElementById('info').innerHTML = name;
-  }
-  else{
-    alert('Fields cannot be empty');  
-  }
-
-  document.getElementById('submit').addEventListener('click',submitClicked,false);
-}
 },false);
