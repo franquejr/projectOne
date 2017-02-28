@@ -41,6 +41,10 @@ div #top-banner{
   background-size:cover;
 }
 
+fieldset {
+  border: 2px #af3333 solid;
+  border-radius: 10px;
+}
 
 /* form */
 label,
