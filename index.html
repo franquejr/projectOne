@@ -9,20 +9,20 @@
     <body id="body">
       <div id="container">
         <div id="top-banner">
-          <header>Nespresso Ordering</header> 
-        </div>       
+        </div>     
           <div id="input-div">           
-            <form name= "myform" id="sign-up" method="get" action="#null">
+            <form name="myform" id="sign-up" method="get" action="#null">
+              <fieldset>
+                <legend>Sign up for 1 month free shipments</legend>
               <h1>Nespresso Capsules</h1>
-                <p>Sign up for 1 month free shipments</p>
                 <ol>
                   <li>
                     <label for="name">Name</label>
-                    <input type="text" placeholder="full name" name="name" id="name" />
+                    <input type="text" placeholder="full name" value="" name="name" id="fullname" />
                   </li>
                   <li>
                     <label for="zip-code">Phone Number</label>
-                    <input type="text" placeholder="zip code" id="phone" />
+                    <input type="tel" placeholder="zip code" id="phone" />
                   </li>
                   <li>
                     <label for="email">Email</label>
@@ -32,8 +32,8 @@
                     <input type="submit" name="submit" id="submit" value="Submit" />
                   </li>
               </ol>
+            </fieldset>
             </form>
-              <div id="info"></div>
           </div>
         </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
