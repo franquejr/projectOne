@@ -11,18 +11,35 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
 
+}
 
-img {
-  /*display: block;*/
+h1 {
+  font-size: 3.25em;
+  line-height: 1.404em; 
+}
+
+p {
+  font-size: 1.95em;
+  line-height: 1.404em;
+}
+
+img,
+video {
+  display: block;
   max-width: 100%;
 }
+
+ol{
+  padding: 0 20px;
 }
+
 
 div #top-banner{
   height:200px;
   background-image:url('../images/nespresso.jpg');
   background-size:cover;
 }
+
 
 /* form */
 label,
@@ -39,7 +56,6 @@ input {
 #input-div {
   padding-left:18%;
   padding-right:18%;
-  background:#92a9ce;
 }
 
 li #submit{
