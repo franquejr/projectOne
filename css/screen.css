@@ -38,7 +38,7 @@ div #banner{
   height:150px;
   background-image:url('../images/nespresso.jpg');
   background-size:cover;
-  background-attachment: auto;
+  /*background-attachment: auto;*/
   border: 6px solid darkgray;
 }
 
@@ -91,7 +91,26 @@ li #submit{
 }
 
 @media screen and  (min-width: 500px){
-
+  div #banner{
+    height:250px;
+  }
   
+  @media screen and  (min-width: 800px){
+  fieldset{
+    width:12%;
+    position:absolute;
+  }
+  #clooney{
+    position: relative; 
+    right: 0; 
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+    float: right;
+  }
+  #enter{
+    position:relative;
+    bottom:auto;
+  }
 }
 
