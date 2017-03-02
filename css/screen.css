@@ -71,3 +71,12 @@ li #submit{
 
 /* ===== STATE STYLES ===== */
 
+@media screen and (min-width: 300px) {
+  
+  video{
+    padding-top:2.5em;
+    padding-bottom:2em;
+
+  }
+}
+
