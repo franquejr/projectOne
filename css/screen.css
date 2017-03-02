@@ -39,6 +39,7 @@ div #banner{
   background-image:url('../images/nespresso.jpg');
   background-size:cover;
   background-attachment: auto;
+  border: 6px solid darkgray;
 }
 
 fieldset {
