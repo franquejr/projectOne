@@ -34,19 +34,21 @@ ol{
   padding: 0 20px;
 }
 
-
-div #top-banner{
-  height:200px;
+div #banner{
+  height:150px;
   background-image:url('../images/nespresso.jpg');
   background-size:cover;
+  background-attachment: auto;
 }
 
 fieldset {
   border: 2px #af3333 solid;
   border-radius: 10px;
+  background: #576E78;
 }
 
 /* form */
+
 label,
 input {
   /*box-sizing: border-box;*/
@@ -68,3 +70,4 @@ li #submit{
 }
 
 /* ===== STATE STYLES ===== */
+
