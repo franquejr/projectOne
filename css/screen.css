@@ -49,6 +49,12 @@ fieldset {
   font: 1em Verdana, Geneva, sans-serif;
 }
 
+legend {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: #000;
+}
+
 /* form */
 
 label,
@@ -80,9 +86,10 @@ li #submit{
     padding-bottom:2em;
 
   }
-  fieldset{
-   
-    
+  form{
+    padding-bottom:2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 
