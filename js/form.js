@@ -7,6 +7,7 @@ console.log('Dom loaded');
      var name = document.getElementById('fullname').value.trim();
      var phone = document.getElementById('phone').value.trim();
      var email = document.getElementById('email').value.trim();
+     var results = document.getElementById('results');
       if (name!==''){
         results.innerHTML = name;
         //console.log(name);
