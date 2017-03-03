@@ -8,14 +8,14 @@ console.log('Dom loaded');
      var phone = document.getElementById('phone').value.trim();
      var email = document.getElementById('email').value.trim();
      var results = document.getElementById('results');
-      if (name!==''){
-        results.innerHTML = name;
-        //console.log(name);
-        //alert(name);
-      }//end of if statement
+      if (name ==='' || email ===''){
+        alert('name or email fields cannot be empty');
+      }//end of name if statement
+      else if (isNaN(Number(phone))){
+        alert('phone number entry is not a number');
+      }//end of email if statement
       else{
-        alert('Fields cannot be empty');
-        console.log('field is empty');  
+         results.innerHTML = name;       
       }//end of else 
     };//end of submitClicked funtion
 
