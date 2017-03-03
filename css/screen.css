@@ -12,6 +12,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   height:100%;
   background:#92a9ce;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -53,6 +54,7 @@ legend {
   font-size: 1.4em;
   text-transform: uppercase;
   color: #000;
+  font-weight:bold;
 }
 
 /* form */
@@ -81,7 +83,8 @@ li #submit{
   video{
     padding-top:2.5em;
     padding-bottom:2em;
-
+    padding-left: 1em;
+    padding-right: 1em;
   }
   form{
     padding-bottom:2.5em;
@@ -104,13 +107,20 @@ li #submit{
     position: relative; 
     right: 0; 
     bottom: 0;
-    min-width: 50%; 
-    min-height: 50%;
+    /*min-width: 50%; 
+    min-height: 50%;*/
+    width:60%;
     float: right;
+    padding-right:1.7em;
+  }
+  #container{
+    position:relative;
   }
   #enter{
-    position:relative;
-    bottom:auto;
+    position:absolute;
+    left:0;
+    bottom:0%;
   }
+
 }
 
