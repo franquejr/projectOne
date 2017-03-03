@@ -10,10 +10,11 @@ console.log('Dom loaded');
     var results = document.getElementById('results');
     var form = document.getElementById('sign-up');
     var pic = document.createElement('img');
+    var video = document.getElementById('clooney');
 
       if (name ==='' || email ===''){
         alert('name or email fields cannot be empty');
-      }//end of name if statement
+      }//end of name email if statement
       else if (isNaN(Number(phone))){
         alert('phone number entry is not a number');
       }//end of email if statement
@@ -22,7 +23,7 @@ console.log('Dom loaded');
         pic.setAttribute('alt', 'thumbs up picture');
         results.innerHTML = '<p>Entry submitted</p><p>Thank you</p>';
         results.appendChild(pic);
-          
+        video.style.display = 'none';  
          form.innerHTML = " ";      
       }//end of else 
     };//end of submitClicked funtion
