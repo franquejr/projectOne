@@ -81,21 +81,25 @@ input {
 
 /* ===== MODULAR STYLES ===== */
 
+li {
+  padding-bottom:1.2em;
+}
 li a {
   text-decoration:none;
 }
-ul {
-  list-style-type:disc;
-}
-#stats li{
-   list-style:square-inside;
-}
-
 
 li #submit{
   width:50%;
 }
+article{
+  padding-left:2em;
+  padding-right:2em;
+}
+ul{
+  list-style-type: square;
+  list-style-position:none;
 
+}
 /* ===== STATE STYLES ===== */
 
 @media screen and (min-width: 300px) {
@@ -115,7 +119,11 @@ li #submit{
 
 @media screen and  (min-width: 500px){
   div #banner{
-    height:250px;
+    height:175px;
+  }
+  #clooney{
+    padding-right:1em;
+    padding-left:1em;
   }
   
   @media screen and  (min-width: 800px){
@@ -131,6 +139,7 @@ li #submit{
     width:60%;
     float: right;
     padding-right:1.7em;
+    padding-left:1.7em;
   }
   #container{
     position:relative;
