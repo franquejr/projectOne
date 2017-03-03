@@ -20,7 +20,7 @@ console.log('Dom loaded');
       }//end of email if statement
       else{
         pic.src = 'images/Good-luck.gif';
-        pic.setAttribute('alt', 'thumbs up picture');
+        pic.setAttribute('alt', 'goofey gif');
         results.innerHTML = '<p>Entry submitted</p><p>Thank you</p>';
         results.appendChild(pic);
         video.style.display = 'none';  
