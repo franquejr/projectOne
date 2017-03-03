@@ -11,8 +11,8 @@ console.log('Dom loaded');
     var pic = document.createElement('img');
     var video = document.getElementById('clooney');
 
-      if (name ==='' || email ===''){
-        alert('name or email fields cannot be empty');
+      if (name ==='' || email ==='' || phone === ''){
+        alert('fields cannot be empty');
       }//end of name email if statement
       else if (isNaN(Number(phone))){
         alert('phone number entry is not a number');
