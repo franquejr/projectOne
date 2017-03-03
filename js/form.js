@@ -27,6 +27,6 @@ console.log('Dom loaded');
       }//end of else 
     };//end of submitClicked funtion
 
-  document.getElementById('enter').addEventListener('click',submitClicked,false);
+  document.getElementById('submit').addEventListener('click',submitClicked,false);
 
 },false);
