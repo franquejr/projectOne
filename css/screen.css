@@ -65,6 +65,11 @@ input {
   width:100%;
   display:block;
 }
+
+#results{
+  font-family:tahoma, arial, helvetica, sans-serif;
+  font-size:1.75em;
+}
 /* ===== LAYOUT STYLES ===== */
 
 
