@@ -3,11 +3,12 @@ document.addEventListener("DOMContentLoaded",function () {
 console.log('Dom loaded');
  
  //alert(name);
-    function submitClicked() {
-     var name = document.getElementById('fullname').value.trim();
-     var phone = document.getElementById('phone').value.trim();
-     var email = document.getElementById('email').value.trim();
-     var results = document.getElementById('results');
+  function submitClicked() {
+    var name = document.getElementById('fullname').value.trim();
+    var phone = document.getElementById('phone').value.trim();
+    var email = document.getElementById('email').value.trim();
+    var results = document.getElementById('results');
+    var form = document.getElementById('sign-up');
       if (name ==='' || email ===''){
         alert('name or email fields cannot be empty');
       }//end of name if statement
@@ -15,7 +16,8 @@ console.log('Dom loaded');
         alert('phone number entry is not a number');
       }//end of email if statement
       else{
-         results.innerHTML = name;       
+         results.innerHTML = '<p>Entry submitted</p><p>Thank you</p>'; 
+          form.innerHTML = " ";      
       }//end of else 
     };//end of submitClicked funtion
 
