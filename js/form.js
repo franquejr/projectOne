@@ -10,6 +10,8 @@ console.log('Dom loaded');
     var form = document.getElementById('sign-up');
     var pic = document.createElement('img');
     var video = document.getElementById('clooney');
+    var stats = document.getElementById('stats');
+    var heading = document.getElementById('h1');
 
       if (name ==='' || email ==='' || phone === ''){
         alert('fields cannot be empty');
@@ -23,7 +25,9 @@ console.log('Dom loaded');
         results.innerHTML = '<p>Entry submitted</p><p>Thank you</p>';
         results.appendChild(pic);
         video.style.display = 'none';  
-         form.innerHTML = " ";      
+        form.innerHTML = " ";
+        stats.innerHTML = " "; 
+        heading.innerHTML = " ";     
       }//end of else 
     };//end of submitClicked funtion
 
