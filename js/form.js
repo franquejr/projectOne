@@ -1,8 +1,7 @@
 
 document.addEventListener("DOMContentLoaded",function () {
 console.log('Dom loaded');
- 
- //alert(name);
+
   function submitClicked() {
     var name = document.getElementById('fullname').value.trim();
     var phone = document.getElementById('phone').value.trim();
